@@ -1,0 +1,89 @@
+/* Reset some basic styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    gap: 2rem;
+}
+
+#navbar li {
+    position: relative;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+/* Hover effect */
+#navbar a:hover {
+    color: #f39c12;
+}
+
+/* Scrolled navbar styling */
+.scrolled {
+    background-color: #333;
+}
+
+.scrolled a {
+    color: #fff;
+}
+
+.scrolled a:hover {
+    color: #f39c12;
+}
+
+/* Section styling */
+section {
+    padding: 5rem 2rem;
+    height: 100vh;
+}
+
+#home {
+    background: #3498db;
+    color: #fff;
+}
+
+#about {
+    background: #2ecc71;
+    color: #fff;
+}
+
+#services {
+    background: #e74c3c;
+    color: #fff;
+}
+
+#contact {
+    background: #9b59b6;
+    color: #fff;
+}
